@@ -11,7 +11,7 @@
 
 <p>A este modelo se desea agregar las siguientes tablas:</p>
 <ul>
-  <li>TUna tabla que permita registrar las facturas generadas. Cada factura se asocia a una venta específica, y cada venta al mismo tiempo puede ser cancelada a través de una o más facturas. De cada factura interesa saber su número único y correlativo, la fecha de generación, la fecha de pago, el monto de la factura, el subtotal, el impuesto y el total.</li>
+  <li>Una tabla que permita registrar las facturas generadas. Cada factura se asocia a una venta específica, y cada venta al mismo tiempo puede ser cancelada a través de una o más facturas. De cada factura interesa saber su número único y correlativo, la fecha de generación, la fecha de pago, el monto de la factura, el subtotal, el impuesto y el total.</li>
   <li>Una tabla que permita almacenar órdenes de compra. De cada orden de compra se debe registrar un código único, una fecha de creación, el nombre del trabajador que la autoriza y un campo que permita registrar observaciones. Es necesario destacar que cada venta solo tendrá una orden de compra asociada.</li>
   <li>TUna tabla que permita almacenar las adquisiciones realizadas para cada producto. En esta tabla se debe registrar un número correlativo, la fecha de compra, el nombre del proveedor y la cantidad adquirida.</li>
 </ul>
