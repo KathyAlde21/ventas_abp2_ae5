@@ -58,3 +58,8 @@ CREATE TABLE `adquisicion_producto` (
     ON DELETE RESTRICT,
   CHECK (`cantidad` > 0)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+SHOW TABLES;
+SHOW CREATE TABLE factura;
+SHOW CREATE TABLE orden_compra;
+SHOW CREATE TABLE adquisicion_producto;
